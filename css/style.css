@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     color: black;
+    
 }
 
 body {
@@ -24,13 +25,12 @@ header>img {
 
 .nav-link {
     overflow: hidden;
-    list-style: none;
+    text-decoration: none;
     margin: 5px 30px 5px 10px;
 }
 
-a {
-    text-decoration: none;
-    cursor: pointer;
+li  {
+    list-style: none;
 }
 
 form {
@@ -64,4 +64,34 @@ footer {
 
 footer li {
     padding-left: 4px;
+}
+
+#Features > div {
+    margin: 20px;
+}
+
+#video {
+    margin: 20px 0 20px 0;
+}
+
+#Pricing {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
+}
+
+.flex-box {
+    display: flexbox;
+    flex-direction: row;
+    width: 15%;
+    height: 20%;
+}
+
+
+
+button {
+    padding: 10px;
+    background-color: slateblue;
+    cursor: pointer;
 }
